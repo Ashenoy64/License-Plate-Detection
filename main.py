@@ -48,10 +48,10 @@ def draw(bbox, img):
 
 
 if __name__=='__main__':
-    # define constants
-    model_cfg_path = r'C:\Users\Meowmaster\Desktop\PROject\Python\Detection\yolov3-from-opencv-object-detection\model\cfg\darknet-yolov3.cfg'
-    model_weights_path =r'C:\Users\Meowmaster\Desktop\PROject\Python\Detection\yolov3-from-opencv-object-detection\model\model.weights'
-    input_dir = r'C:\Users\Meowmaster\Desktop\PROject\Python\Detection\data'
+    #Add proper path
+    model_cfg_path = r'\License-Plate-Detection\yolov3-from-opencv-object-detection\model\cfg\darknet-yolov3.cfg'
+    model_weights_path =r'\License-Plate-Detection\yolov3-from-opencv-object-detection\model\model.weights'
+    input_dir = r'\License-Plate-Detection\data'
 
     class_names=['License Plate']
     for img_name in os.listdir(input_dir):
